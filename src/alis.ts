@@ -9,7 +9,7 @@ const crush1 : CrushType = {
     name: "Solkina",
     profession: "Engineer",
     address: "Moscow"
-}
+} 
 
 const crush2 : CrushType = {
     name: "Alu",

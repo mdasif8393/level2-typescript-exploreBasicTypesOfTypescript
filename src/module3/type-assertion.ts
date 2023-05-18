@@ -6,7 +6,7 @@ emni = "Asdfdaf";
 let emni1 : any;
 emni1 = 12313;
 
-(emni1 as string);
+(emni1 as string)
 
 let emni1P : any;
 emni1P = 123;

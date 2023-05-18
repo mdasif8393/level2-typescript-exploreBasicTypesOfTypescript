@@ -15,7 +15,8 @@ type Manush = {
     address: {
         city: "No City",
         road: "No Road",
-        home?: ""};};
+        home?: ""};
+    };
 const manush1: Manush = {
     name: "Manush",
     age: 100,
