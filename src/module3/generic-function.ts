@@ -16,19 +16,19 @@ const result3 = createArray<NameInterface, NameInterface>({name: "As", age: 32},
 
 
 // const newData = {...myInfo, crush};
-const addMeInMyCrushMind = <T>(myInfo: T) => {
-    const crush = "Ket Winslet";
-    const newData = {...myInfo, crush};
-    return newData;
-}
+// const addMeInMyCrushMind = <T>(myInfo: T) => {
+//     const crush = "Ket Winslet";
+//     const newData = {...myInfo, crush};
+//     return newData;
+// }
 
-const myInfo = {
-    name: "Persian",
-    age: 100,
-    salary: 11110000
-}
+// const myInfo = {
+//     name: "Persian",
+//     age: 100,
+//     salary: 11110000
+// }
 
-const result4 = addMeInMyCrushMind<{name: string, age: number, salary: number}>(myInfo);
+// const result4 = addMeInMyCrushMind<{name: string, age: number, salary: number}>(myInfo);
 
 //Normal function
 function createArray2<X,Y>(param1: X, param2: Y) : [X,Y]{
