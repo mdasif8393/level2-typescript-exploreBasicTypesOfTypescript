@@ -6,10 +6,7 @@
 // const rollNumber3: GenericArray<number> = [22, 332, 44];
 // const rollNBumber3: GenericArray<boolean> = [true, false];
 
-// type RelationWithSalaryType = {
-//     name: string,
-//     salary: number
-// }
+
 
 // const userNameAndRollNumbers: GenericArray<RelationWithSalaryType> = [{
 //     name: "John",
@@ -23,6 +20,11 @@
 // type GenericTuple<X,Y> = [X,Y];
 
 // const relation: GenericTuple<string, string> = ["Ami", "Tumi"];
+
+// type RelationWithSalaryType = {
+//     name: string,
+//     salary: number
+// }
 
 // const relationWithSalary: GenericTuple<RelationWithSalaryType, string> = [
 //     {name: "Ami",

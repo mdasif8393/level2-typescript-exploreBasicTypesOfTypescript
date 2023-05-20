@@ -1,5 +1,5 @@
 // // Generic Interface
-// interface GenericInterface<T, U = null> {
+// interface GenericInterface<T, U=null> {
 //     name: string;
 //     husband: T;
 //     wife?: U;
