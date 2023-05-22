@@ -2,7 +2,7 @@
 //keyof guard
 type Alphaneumeric = string | number;
 //if(typeof param1 === "string" && typeof param2 === "string")
-function add(param1: Alphaneumeric, param2: number | string) : Alphaneumeric{
+function add(param1: Alphaneumeric, param2: Alphaneumeric) : Alphaneumeric{
     if(typeof param1 === "number" && typeof param2 === "number"){
         return param1 + param2;
     }
@@ -30,11 +30,11 @@ function getUser(user: NormalUser | AdminUser) : string{
         return `I am an admin and my role is ${user.role}`
     }
     else{
-        return "I am noraml user"
+        return "I am normal user"
     }
 }
 
-const normalUser1: NormalUser = {name: "Mr> Kallu"};
+const normalUser1: NormalUser = {name: "Mr. Kallu"};
 const adminUser1: AdminUser = {name: "Mr. Gallu", role: "admin"};
 
 const userType = getUser(adminUser1);
