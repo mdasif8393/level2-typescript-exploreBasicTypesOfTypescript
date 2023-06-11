@@ -5,7 +5,6 @@ rollNumbers2[7] = 11;
 const user : [number, string] = [12, "Abul"];
 user [0] = 12;
 
-
 const user2: [string, boolean, number] = ["aaa", true, 2222];
 user2[2] = 123;
 
