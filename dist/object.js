@@ -1,3 +1,4 @@
+"use strict";
 // const user1 : {
 //     company: "Programming Hero";
 //     name: string;
@@ -11,7 +12,6 @@
 //     isMarried: true,
 //     wife: "Montu Mia"
 // }
-
 // const user5: {
 //     company: "Programming Hero",
 //     name: string;

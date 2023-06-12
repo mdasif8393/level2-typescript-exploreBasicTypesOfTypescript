@@ -1,14 +1,12 @@
+"use strict";
 // //ternary operator
 // const age:number = 15;
 // const decision = (age>=18) ? "adult" : "Child";
-
 // //Nullish operator
 // //Null, Undefined
-
 // const isAuthenticatedUser = "";
 // const userName = isAuthenticatedUser ?? "Guest";
 // const userName2 = isAuthenticatedUser ? isAuthenticatedUser : "Guest";
-
 // type Manush = {
 //     name: string;
 //     age: number;
@@ -23,5 +21,4 @@
 //     address: {
 //         city: "No City",
 //         road: "No Road",}}
-
 // const home = manush1?.address?.home ?? "No Home";
